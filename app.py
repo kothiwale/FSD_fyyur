@@ -270,9 +270,8 @@ def delete_venue(venue_id):
   try:
     venue = Venue.query.get(venue_id)
     db.session.delete(venue)
-    flash('Venue ' + str(venue_id) + ' Deleted!')
     db.session.commit()
-
+    flash('Venue ' + str(venue_id) + ' Deleted!')
   except Exception as e:
     print (e)
     db.session.rollback()
