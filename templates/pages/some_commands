@@ -1,0 +1,18 @@
+sudo -u postgres psql  # to connect as postgres
+\c fyyur # to connect to a database
+
+
+      <!--
+      <div class="form-group">
+        <label for="image_link">Image Link</label>
+        {{ form.image_link(class_ = 'form-control', autofocus = true) }}
+      </div>
+      <div class="form-group">
+        <label for="seeking_talent">Seeking talent</label>
+        {{ form.seeking_talent(class_ = 'form-control', autofocus = true) }}
+      </div>
+      <div class="form-group">
+        <label for="seeking_talent_description">Seeking talent description</label>
+        {{ form.seeking_talent_description(class_ = 'form-control', autofocus = true) }}
+      </div>
+      -->

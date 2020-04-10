@@ -1,0 +1,54 @@
+# TODO: connect to a local postgresql database
+# TODO: implement any missing fields, as a database migration using Flask-Migrate
+# TODO Implement Show and Artist models, and complete all model relationships and properties, as a database migration.
+# TODO: replace with real venues data. num_shows should be aggregated based on number of upcoming shows per venue.
+# TODO: implement search on artists with partial string search. Ensure it is case-insensitive.
+# seach for Hop should return "The Musical Hop".
+# search for "Music" should return "The Musical Hop" and "Park Square Live Music & Coffee"
+# TODO: replace with real venue data from the venues table, using venue_id
+  # TODO: insert form data as a new Venue record in the db, instead
+  # TODO: modify data to be the data object returned from db insertion
+
+    # TODO: on unsuccessful db insert, flash an error instead.
+  # e.g., flash('An error occurred. Venue ' + data.name + ' could not be listed.')
+  # see: http://flask.pocoo.org/docs/1.0/patterns/flashing/
+
+    # TODO: Complete this endpoint for taking a venue_id, and using
+  # SQLAlchemy ORM to delete a record. Handle cases where the session commit could fail.
+
+  # BONUS CHALLENGE: Implement a button to delete a Venue on a Venue Page, have it so that
+  # clicking that button delete it from the db then redirect the user to the homepage
+
+  # TODO: replace with real data returned from querying the database
+
+    # TODO: implement search on artists with partial string search. Ensure it is case-insensitive.
+  # seach for "A" should return "Guns N Petals", "Matt Quevado", and "The Wild Sax Band".
+  # search for "band" should return "The Wild Sax Band".
+
+    # TODO: replace with real venue data from the venues table, using venue_id
+
+
+    # TODO: populate form with fields from artist with ID <artist_id>
+
+      # TODO: take values from the form submitted, and update existing
+  # artist record with ID <artist_id> using the new attributes
+
+    # TODO: populate form with values from venue with ID <venue_id>
+
+  # TODO: take values from the form submitted, and update existing
+  # venue record with ID <venue_id> using the new attributes
+
+    # TODO: insert form data as a new Venue record in the db, instead
+  # TODO: modify data to be the data object returned from db insertion
+
+    # TODO: on unsuccessful db insert, flash an error instead.
+  # e.g., flash('An error occurred. Artist ' + data.name + ' could not be listed.')
+
+    # TODO: replace with real venues data.
+  #       num_shows should be aggregated based on number of upcoming shows per venue.
+
+    # called to create new shows in the db, upon submitting new show listing form
+  # TODO: insert form data as a new Show record in the db, instead
+
+    # TODO: on unsuccessful db insert, flash an error instead.
+  # e.g., flash('An error occurred. Show could not be listed.')
